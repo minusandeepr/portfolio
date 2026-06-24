@@ -4,8 +4,7 @@ function About() {
       <h2>About Me</h2>
 
       <p>
-        I'm a passionate Frontend & MERN Stack Developer who enjoys building
-        clean, responsive and user-friendly web applications.
+       Passionate React & MERN Stack Developer with experience building responsive and user-friendly web applications. I enjoy creating clean interfaces, solving real-world problems, and continuously learning modern web technologies. Currently open to internships and full-time opportunities.
       </p>
 
       <div className="about-grid">

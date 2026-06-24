@@ -29,7 +29,8 @@ function Hero() {
               View Projects
             </button>
           </a>
-           <a href="/resume.pdf" target="_blank">
+           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"
+>
     <button className="secondary">
         Resume
     </button>

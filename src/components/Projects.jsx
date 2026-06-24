@@ -1,43 +1,61 @@
 function Projects() {
   return (
     <section id="projects" className="section">
-
-      <h2>Projects</h2>
+      <h2>Featured Project</h2>
 
       <div className="cards">
+        <div className="card featured-card">
+          <div className="project-header">
+            <h3>InterviewAce</h3>
 
-        <div className="card">
-          <h3>InterviewAce</h3>
+            <span className="badge">
+              🏆 Internship Trial Project
+            </span>
+          </div>
 
-          <p>
-              • Converts interview answers into STAR format
-              • Responsive React application
-              • Modern UI
-              • Instant formatting
+          <p className="project-description">
+            InterviewAce is an AI-inspired STAR interview answer formatter
+            designed to help job seekers transform rough interview responses
+            into clear, structured, and professional STAR-format answers
+            through a clean and responsive React interface.
           </p>
 
-          <a
-            href="https://interview-ace-gamma-umber.vercel.app/"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <div className="tech-stack">
+            <strong>Tech Stack</strong>
+
+            <p>
+              React • Vite • JavaScript • CSS • Responsive Design
+            </p>
+          </div>
+
+          <ul className="feature-list">
+            <li>✓ STAR interview answer formatter</li>
+            <li>✓ Modern responsive UI</li>
+            <li>✓ Component-based React architecture</li>
+            <li>✓ Mobile-friendly design</li>
+            <li>✓ Fast Vite development environment</li>
+            <li>✓ Clean and intuitive user experience</li>
+          </ul>
+
+          <div className="project-links">
+            <a
+              href="https://interview-ace-gamma-umber.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🚀 Live Demo
+            </a>
+
+            <a
+              href="https://github.com/minusandeepr/InterviewAce"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              💻 GitHub
+            </a>
+          </div>
         </div>
-
-        <div className="card">
-          <h3>MERN Ecommerce</h3>
-
-          <p>
-            Full-stack ecommerce application with authentication and cart.
-          </p>
-
-          <a href="#">
-            GitHub
-          </a>
-        </div>
-
       </div>
-
     </section>
   );
 }
